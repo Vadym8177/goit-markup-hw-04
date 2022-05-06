@@ -133,8 +133,6 @@ img {
 /* герой */
 
 
-
-
 .hero {
     padding-bottom: 200px;
     padding-top: 200px;
@@ -143,11 +141,11 @@ img {
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('..//images/imgoverlay.png'), url('..//images/hero.jpg');
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('..//images/hero.jpg');
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    
+
+    background-color: var(--secondary-bg-color);
    
 }
 
@@ -191,8 +189,18 @@ img {
     
     padding-bottom: 94px;
     padding-top: 94px;
-
+    
 }
+.section-work .title {
+    
+    
+}
+.section-work .group {
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+}
+
 .section-work .item {
     width: 270px;
 }
