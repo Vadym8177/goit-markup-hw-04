@@ -246,8 +246,7 @@ img {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-
-    
+ 
 }
 
 .section-team .icon {
@@ -259,20 +258,22 @@ img {
      
 }
 
-.section-team .icon:hover {
-    border-radius: 50%;
-    background-color: var(--accent-color);
-}
-.section-team svg {
+
+.section-team a {
     fill: #afb1b8;
-}
-
-.section-team svg:hover {
     
-    fill: var(--secondary-text-color);
-
 }
 
+.section-team .icon {
+    fill: currentColor;
+}
+
+.section-team a:hover {
+    fill: var(--secondary-text-color);
+    background-color: var(--accent-color);
+    border-radius: 50%;
+
+}
 .section-team a {
     display: flex;
     width: 44px;
@@ -494,6 +495,12 @@ img {
 }
 .section-portfolio .info:nth-last-child(-n + 3) {
     margin-bottom: 0;
+}
+
+.section-portfolio .info:hover {
+    border: 1px solid #EEEEEE;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+cursor: pointer;
 }
 .section-portfolio .list {
     border: 1px solid #EEEEEE;
