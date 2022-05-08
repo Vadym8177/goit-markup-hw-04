@@ -259,10 +259,29 @@ img {
      
 }
 
-.section-team a {
-    display: flex;
+.section-team .icon:hover {
+    border-radius: 50%;
+    background-color: var(--accent-color);
+}
+.section-team svg {
+    fill: #afb1b8;
+}
+
+.section-team svg:hover {
+    
+    fill: var(--secondary-text-color);
 
 }
+
+.section-team a {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 .section-team {
     
