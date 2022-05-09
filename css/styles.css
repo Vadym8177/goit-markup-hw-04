@@ -57,6 +57,7 @@ img {
     display: flex;
     align-items: center;
     
+    
 }
 
 
@@ -112,12 +113,14 @@ img {
 .contacts-nav {
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 .contacts-nav .item + .item {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 .contacts-nav .link {
-    display: block;
+    display: flex;
+    align-items: center;
     padding-bottom: 32px;
     padding-top: 32px;
     
@@ -130,19 +133,24 @@ img {
 }
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
-    color: var(--accent-color);
+    color: var(--accent-color); 
 }
+
+.contacts-nav .link:hover .item-logo {
+    fill: var(--accent-color);
+}
+.contacts-nav .link:focus .item-logo {
+    fill: var(--accent-color);
+}
+
 
 .contacts-nav .item-logo {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-right: 10px;
     fill: var(--title-text-color);
 }
-.contacts-nav li:nth-child(2) {
-    margin-right: 30px;
-}
+
 
 
 /* герой */
@@ -192,6 +200,7 @@ img {
 .section-features .list {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 94px;
 }
 
 .section-list {
