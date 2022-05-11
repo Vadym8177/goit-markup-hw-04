@@ -286,6 +286,8 @@ img {
 .section-team a {
     display: flex;
     width: 44px;
+    width: 44px;
+    height: 44px;
     fill: currentColor;
     fill: #afb1b8;
     height: 44px;
@@ -332,8 +334,7 @@ img {
 }
 
 .section-team a {
-    width: 44px;
-    height: 44px;
+    
 }
 
 .section-team .text {
@@ -531,10 +532,6 @@ img {
     justify-content: space-between;
 }
 
-.footer-connect .item {
-    fill: currentColor;
-}
-
 .footer .footer-connect {
     margin-top: 12px;
     
@@ -622,6 +619,9 @@ img {
     display: block;
     text-decoration: none;
     cursor: pointer;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
 }
 
 .section-portfolio .info:nth-last-child(-n + 3) {
